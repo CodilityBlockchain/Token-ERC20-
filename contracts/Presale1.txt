@@ -1,0 +1,29 @@
+The main purpose of this Solidity smart contract, named "Presale," is to facilitate token presale events on the Ethereum blockchain. It 
+allows users to create and participate in presales of a specific ERC-20 token at a predefined price. Let's break down the key functionalities 
+and purposes of this contract:
+
+Presale Initialization: The contract allows users to initialize a new presale by specifying the ERC-20 token to be sold, the total amount of
+tokens available for sale, and the price at which tokens will be sold. This initialization is performed by calling the initialize function 
+and sending a small amount of Ether as a platform fee.
+
+Buying Tokens: Users can participate in a presale by calling the buy function, specifying the presale ID and sending Ether. The contract 
+calculates the number of tokens to allocate based on the Ether sent and the specified token price. If the user's Ether payment is sufficient 
+and there are enough tokens available, tokens are transferred to the buyer.
+
+Closing a Presale: The contract allows the creator of a presale to close it using the closePresale function. Once a presale is closed, it 
+becomes inactive, and no more tokens can be purchased from it. This function is useful to end a presale prematurely or when all tokens have 
+been sold.
+
+Adding More Tokens: The addMoreTokens function allows the creator of a presale to add more tokens to the existing presale. This function is 
+useful if the initial token supply is insufficient, and the creator wants to extend the presale by providing additional tokens.
+
+Querying Presale Details: Users can retrieve information about a specific presale by calling the getPresaleDetails function. This provides 
+details such as the token being sold, the creator of the presale, the total amount of tokens available, the remaining tokens, the list of 
+participants, the token price, and the status of the presale (active or closed).
+
+Platform Fees: The contract collects a small platform fee (0.0001 Ether) for each presale created. This fee is transferred to the platform 
+owner's address.
+
+In summary, the primary purpose of this smart contract is to create and manage token presales, allowing users to buy tokens at a 
+predetermined price, with control over the presale's parameters, such as the token type, quantity, and price. It provides transparency 
+and automation for token presale events on the Ethereum blockchain.

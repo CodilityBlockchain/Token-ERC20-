@@ -1,0 +1,29 @@
+It is to facilitate token presale events where users can purchase tokens at a specific price. The contract provides a platform for 
+initiating and managing these presales. Here's an overview of the primary functions and purposes of this smart contract:
+
+Initialization of Presales:
+Users can call the initialize function to start a new presale event by specifying the token address, the amount of tokens to be sold, 
+and the price per token.
+A platform fee of 0.0001 ether is collected from the user who initializes the presale.
+
+Token Purchases:
+Users can buy tokens during an active presale by calling the buy function and providing the presale ID.
+The contract checks if the presale is active and if the user sends enough ether to purchase the desired amount of tokens at the specified price.
+Tokens are transferred to the buyer, and the remaining token amount in the presale is updated.
+An event BUY is emitted to record the purchase.
+
+Closing Presales:
+Users who initialized a presale can close it by calling the closePresale function, which deactivates the presale and transfers any 
+remaining tokens back to the presale creator.
+
+Viewing Presale Details:
+Users can query details of a specific presale by calling the getPresaleDetails function, which provides information about the token, 
+presale creator, total token amount, remaining tokens, list of buyers, token price, and whether the presale is active.
+
+Adding More Tokens:
+The contract allows the presale creator to add more tokens to an active presale using the addMoreTokens function, which increases the total 
+token amount and the remaining token balance.
+
+The primary purpose of this smart contract is to create and manage token presale events, enabling users to purchase tokens at a specified 
+price during the presale period. It also ensures the security of token transfers and platform fee collection, similar to the previous 
+contract you provided.

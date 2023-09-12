@@ -1,0 +1,25 @@
+the main functionalities and purposes of this smart contract are follow:
+
+Airdrop Initialization: Users can initialize a new airdrop by providing the contract with the address of the ERC-20 token they want to 
+distribute, the total amount of tokens to distribute, and the amount of tokens each user should receive. This sets up the parameters for 
+the airdrop.
+
+Claiming Tokens: Users can claim their allocated tokens from the airdrop. The contract checks if the airdrop is active, if the user has 
+already claimed tokens from it, and if there are enough remaining tokens to distribute. If all conditions are met, the user receives their 
+allocated tokens.
+
+Closing Airdrops: The user who initiated the airdrop can close it, making it inactive and preventing further claims. This can be useful to 
+stop the distribution once the desired amount has been distributed.
+
+Additional Token Deposits: The user who initiated the airdrop can also add more tokens to the airdrop if needed. This allows them to top up 
+the airdrop with additional tokens in case they initially underestimated the amount required.
+
+Platform Fees: The contract deducts a platform fee (specified as a percentage of the total tokens) and transfers it to the platformOwner 
+(the contract deployer). This fee is taken when the airdrop is initialized.
+
+Data Storage: The contract uses a data structure (airdropInfo) to store information about each airdrop, including the token contract, the u
+ser who initiated it, the total amount, the remaining amount, and whether it's active. It also maintains a record of claimed tokens to 
+prevent double claiming.
+
+In summary, this smart contract is designed to automate the process of distributing ERC-20 tokens in an airdrop fashion, ensuring fairness, 
+tracking claimed tokens, and allowing the airdrop initiator to manage and control the distribution process.

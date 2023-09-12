@@ -1,0 +1,26 @@
+The contract provides functionality for initializing and managing airdrop campaigns. Here are the key features and purposes of this 
+smart contract:
+
+Airdrop Initialization (initialize function): Users can initiate a new airdrop campaign by providing the address of the ERC-20 token 
+they want to distribute, the total amount to distribute, and the amount to be distributed per user. The contract records the airdrop 
+campaign's details, including the token, user, total amount, and remaining amount.
+
+Claiming Airdrop (claim function): Users can claim their share of the airdrop by calling this function. They can only claim if the airdrop 
+is active, they haven't already claimed from the same campaign, and there is a sufficient remaining amount. The claimed amount is 
+transferred to the user, and their address is added to the list of claimants.
+
+Closing Airdrop (closeAirdrop function): The user who initiated the airdrop campaign can use this function to close the airdrop. When closed, 
+any remaining tokens are transferred back to the initiator's address.
+
+Getting Airdrop Details (getAirdropDetails function): This function allows users to retrieve details about a specific airdrop campaign, 
+such as the token, initiator, total amount, remaining amount, list of users who claimed, amount per user, and whether the airdrop is active.
+
+Adding More Tokens (addMoreTokens function): The initiator of the airdrop can add more tokens to the campaign after it has started. This 
+function increases both the total and remaining amounts of the airdrop.
+
+Platform Fees: The contract deducts a platform fee (specified as a percentage) from the total airdrop amount and transfers it to the 
+platform owner when a new airdrop is initialized.
+
+This smart contract is designed to make it easy for a user to create, manage, and distribute tokens in a controlled manner to a 
+group of recipients, such as in the context of promotional airdrops or token giveaways. It ensures fairness by enforcing rules like not 
+allowing multiple claims from the same user and enabling the airdrop initiator to close the campaign if needed.

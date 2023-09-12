@@ -1,0 +1,24 @@
+the key functionalities and purposes of this smart contract are follow:
+
+Presale Creation: The contract allows project owners (referred to as "sellers") to create token presales. There are two methods provided for 
+creating presales: one for accepting BNB (Binance Coin) as payment and the other for accepting a specified ERC-20 token as payment. Sellers 
+can set various parameters for the presale, including the token to be sold, metadata, price per token, start and end times, soft and hard 
+caps, minimum and maximum investment amounts, and more.
+
+Investment: Investors can participate in the presale by either sending BNB or ERC-20 tokens, depending on how the presale was set up. The 
+contract handles the conversion of funds into tokens based on the specified price and ensures that the presale conditions are met.
+
+Presale Management: Sellers can manage their presales by updating various parameters such as the start and end times, token price, minimum 
+and maximum investments, and caps (soft and hard caps). They can also add more tokens to the presale if needed.
+
+Closing Presale: Once the presale is complete or if the seller decides to end it prematurely, they can close the presale. This action 
+returns any remaining tokens to the seller.
+
+Token Withdrawal: Sellers can withdraw any remaining tokens from the contract after the presale is closed.
+
+Address Tracking: The contract keeps track of addresses that have participated in the presale to prevent multiple purchases from the same 
+address.
+
+In summary, this smart contract serves as a decentralized launchpad for token presales, allowing project owners to raise funds from early 
+investors in a secure and controlled manner. It automates the process of token distribution and investment tracking while providing 
+flexibility in configuring the parameters of each presale.

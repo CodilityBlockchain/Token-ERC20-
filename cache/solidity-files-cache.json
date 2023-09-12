@@ -1,0 +1,232 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/lap-103/Desktop/Codility Projects/Token-ERC20-/contracts/Airdrop.sol": {
+      "lastModificationDate": 1694513315883,
+      "contentHash": "3d6f24f927e5b6855cc8b2ea6b6c242b",
+      "sourceName": "contracts/Airdrop.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Airdrop",
+        "IERC20",
+        "SafeMath"
+      ]
+    },
+    "/Users/lap-103/Desktop/Codility Projects/Token-ERC20-/contracts/Airdrop1.sol": {
+      "lastModificationDate": 1694513443103,
+      "contentHash": "d7ba4bb10715a82d6028deb28b0607d3",
+      "sourceName": "contracts/Airdrop1.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Airdrop1",
+        "IERC20",
+        "SafeMath"
+      ]
+    },
+    "/Users/lap-103/Desktop/Codility Projects/Token-ERC20-/contracts/Launchpad.sol": {
+      "lastModificationDate": 1694517067342,
+      "contentHash": "4dfdb7b213c98f43b8cc3c153c23e173",
+      "sourceName": "contracts/Launchpad.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Address",
+        "IERC20",
+        "IERC20Permit",
+        "Launchpad",
+        "SafeERC20",
+        "SafeMath"
+      ]
+    },
+    "/Users/lap-103/Desktop/Codility Projects/Token-ERC20-/contracts/Presale.sol": {
+      "lastModificationDate": 1694513315943,
+      "contentHash": "af73c21831f1f250077ec450a2c2d2b3",
+      "sourceName": "contracts/Presale.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "IERC20",
+        "Presale",
+        "SafeMath"
+      ]
+    },
+    "/Users/lap-103/Desktop/Codility Projects/Token-ERC20-/contracts/Presale1.sol": {
+      "lastModificationDate": 1694513636035,
+      "contentHash": "885b5e30a693b5b248d8c8d5838bf536",
+      "sourceName": "contracts/Presale1.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "IERC20",
+        "Presale1",
+        "SafeMath"
+      ]
+    },
+    "/Users/lap-103/Desktop/Codility Projects/Token-ERC20-/contracts/TokenFactory.sol": {
+      "lastModificationDate": 1694513537460,
+      "contentHash": "ac590c267af88830e4e7b44d6745af7f",
+      "sourceName": "contracts/TokenFactory.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.10"
+      ],
+      "artifacts": [
+        "Address",
+        "IERC20",
+        "SafeERC20",
+        "Token",
+        "TokenFactory"
+      ]
+    }
+  }
+}
